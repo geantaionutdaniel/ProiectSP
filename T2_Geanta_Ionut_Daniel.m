@@ -1,7 +1,7 @@
 P=40; %perioada semnalului
 D=11; %durata unui impuls
 N=50; %numarul de coeficienti
-n=N/2; %pentru ca suma este de la -n la n, iar in total sunt 50 de coeficienti
+n=N/2; %pentru ca suma este de la -n la n
 w0=2*pi/P; %pulsatia
 t=0:0.002:160; %pasul de 2 ms (160/40 = 4 perioade pe ecran)
 duty=(D/P)*100; %factorul de umplere (durata unui impuls / perioada)
